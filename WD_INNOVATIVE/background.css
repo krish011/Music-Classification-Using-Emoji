@@ -1,0 +1,110 @@
+
+body{
+	padding: 0px;
+	background-image: url("pic2.jfif");
+	background-position: center;
+	background-size: 100%;
+}
+
+.h11{
+	font-family:"Times New Roman";
+	font-size: 45px;
+	text-align: center;
+	color: white; 
+	margin: 0;
+}
+	.song{
+		margin: 40px;
+		float: left;
+		width: 150px;
+		height: 180px;
+		transition: width 1s;
+		background-color: rgba(1, 3, 5,0.8);
+		padding: 15px;
+		border-bottom-right-radius: 10%;
+		border-top-left-radius: 10%;
+		border-bottom-left-radius: 10%;
+		border-top-right-radius: 10%;
+		 word-wrap: break-word;
+		 overflow: hidden;
+		 z-index: 2;
+		
+	}
+	.song:hover{
+		width:350px;
+	}
+	#data{
+		color: white;
+		float: left;
+		width: 150px;
+		height: 150px;
+		padding-left: 10px;	
+		z-index: 2;
+		font-size: 14px;
+		font-family: "arial";
+
+	}
+	#pic{
+		float: left;
+		background-image: url("E:\\Imagere\\2.jpg");
+			background-size: cover;
+			height: 180px;
+			width: 150px;
+			border-bottom-right-radius: 10%;
+			border-top-left-radius: 10%;
+			border-bottom-left-radius: 10%;
+			border-top-right-radius: 10%;
+			z-index: 2;
+	}
+.play{
+		background:url("play.png");
+		
+		background-size: cover;
+		transition: transform .2s;
+		height: 46px;
+		width: 40px;
+		margin-left: 42%;
+		margin-top: 55%;
+		outline: none;
+		border:none;
+		
+	}
+	.play:focus{
+		outline: none;
+	}
+	.play:hover{
+		transform: scale(1.3);
+		
+	
+		
+	}
+
+	.add{
+		border-color: rgba(1,1,1,0.5);
+		background:transparent url("add.png");
+		mix-blend-mode: multiply;
+		background-size: cover;
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		height: 50px;
+		width: 50px;
+		
+		margin-left: 13%;
+		margin-top: 55%;
+		z-index: 2;
+	}
+	.add:focus{
+		outline: none;
+	}
+	.add:hover{
+		box-shadow: 0px 0px 5px 5px black;
+		border-color: black;
+		background-color: rgb(1,1,1);
+		border-bottom-left-radius: 50%;
+		border-top-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		border-top-right-radius: 50%;
+		
+	}
